@@ -328,7 +328,7 @@ Sensor::Sensor(struct sensor_t const& hwSensor, const uuid_t& uuid, int halVersi
         }
     }
 
-    if (mmHalVersion > 0){
+    if (mHalVersion > 0){
         halVersion = mHalVersion;
         mHalVersion = 0;
     }
